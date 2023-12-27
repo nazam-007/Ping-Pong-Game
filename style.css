@@ -1,0 +1,35 @@
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+h1{
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+}
+#ping-pong-table{
+    border: 2px solid black;
+    width: 700px;
+    height: 400px;
+    background-color: mintcream;;
+    position: relative;
+}
+#paddle{
+    background-color: blue;
+    
+    width: 15px;
+    height: 75px;
+    margin-left: 2px;
+    position: absolute;
+}
+#ball{
+    /* background-color: red; */
+    background: linear-gradient(75deg, #ff6347, #ffd700, #32cd32);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+
+}
